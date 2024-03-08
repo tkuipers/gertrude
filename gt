@@ -1,0 +1,4 @@
+#!/bin/bash
+DIR=$(dirname "$0")
+
+poetry run -C $DIR python $DIR/gertrude.py "$@"
