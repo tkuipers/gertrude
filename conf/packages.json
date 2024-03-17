@@ -1,0 +1,21 @@
+[
+  {
+    "name": "ubuntu",
+    "packages":{
+      "packages": {
+        "cli": {
+          "repositories": [
+            {
+              "name": "main",
+            }
+          ],
+          "from_repo": [
+            {
+              "name": "wget",
+            }
+          ]
+        }
+      }
+    }
+  }
+]
